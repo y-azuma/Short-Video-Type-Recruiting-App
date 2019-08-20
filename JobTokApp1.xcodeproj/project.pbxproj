@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16DBA9E8230BCE110086FAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DBA9E7230BCE110086FAE1 /* AppDelegate.swift */; };
+		16DBA9EA230BCE110086FAE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DBA9E9230BCE110086FAE1 /* ViewController.swift */; };
+		16DBA9ED230BCE110086FAE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DBA9EB230BCE110086FAE1 /* Main.storyboard */; };
+		16DBA9EF230BCE130086FAE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DBA9EE230BCE130086FAE1 /* Assets.xcassets */; };
+		16DBA9F2230BCE130086FAE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DBA9F0230BCE130086FAE1 /* LaunchScreen.storyboard */; };
+		16DBA9FD230BCE140086FAE1 /* JobTokApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DBA9FC230BCE140086FAE1 /* JobTokApp1Tests.swift */; };
+		16DBAA08230BCE140086FAE1 /* JobTokApp1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DBAA07230BCE140086FAE1 /* JobTokApp1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16DBA9F9230BCE140086FAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16DBA9DC230BCE110086FAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16DBA9E3230BCE110086FAE1;
+			remoteInfo = JobTokApp1;
+		};
+		16DBAA04230BCE140086FAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16DBA9DC230BCE110086FAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16DBA9E3230BCE110086FAE1;
+			remoteInfo = JobTokApp1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16DBA9E4230BCE110086FAE1 /* JobTokApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobTokApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DBA9E7230BCE110086FAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16DBA9E9230BCE110086FAE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16DBA9EC230BCE110086FAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16DBA9EE230BCE130086FAE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16DBA9F1230BCE130086FAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16DBA9F3230BCE130086FAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DBA9F8230BCE140086FAE1 /* JobTokApp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobTokApp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DBA9FC230BCE140086FAE1 /* JobTokApp1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTokApp1Tests.swift; sourceTree = "<group>"; };
+		16DBA9FE230BCE140086FAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DBAA03230BCE140086FAE1 /* JobTokApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobTokApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DBAA07230BCE140086FAE1 /* JobTokApp1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTokApp1UITests.swift; sourceTree = "<group>"; };
+		16DBAA09230BCE140086FAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16DBA9E1230BCE110086FAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DBA9F5230BCE140086FAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DBAA00230BCE140086FAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16DBA9DB230BCE110086FAE1 = {
+			isa = PBXGroup;
+			children = (
+				16DBA9E6230BCE110086FAE1 /* JobTokApp1 */,
+				16DBA9FB230BCE140086FAE1 /* JobTokApp1Tests */,
+				16DBAA06230BCE140086FAE1 /* JobTokApp1UITests */,
+				16DBA9E5230BCE110086FAE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16DBA9E5230BCE110086FAE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16DBA9E4230BCE110086FAE1 /* JobTokApp1.app */,
+				16DBA9F8230BCE140086FAE1 /* JobTokApp1Tests.xctest */,
+				16DBAA03230BCE140086FAE1 /* JobTokApp1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16DBA9E6230BCE110086FAE1 /* JobTokApp1 */ = {
+			isa = PBXGroup;
+			children = (
+				16DBA9E7230BCE110086FAE1 /* AppDelegate.swift */,
+				16DBA9E9230BCE110086FAE1 /* ViewController.swift */,
+				16DBA9EB230BCE110086FAE1 /* Main.storyboard */,
+				16DBA9EE230BCE130086FAE1 /* Assets.xcassets */,
+				16DBA9F0230BCE130086FAE1 /* LaunchScreen.storyboard */,
+				16DBA9F3230BCE130086FAE1 /* Info.plist */,
+			);
+			path = JobTokApp1;
+			sourceTree = "<group>";
+		};
+		16DBA9FB230BCE140086FAE1 /* JobTokApp1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16DBA9FC230BCE140086FAE1 /* JobTokApp1Tests.swift */,
+				16DBA9FE230BCE140086FAE1 /* Info.plist */,
+			);
+			path = JobTokApp1Tests;
+			sourceTree = "<group>";
+		};
+		16DBAA06230BCE140086FAE1 /* JobTokApp1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				16DBAA07230BCE140086FAE1 /* JobTokApp1UITests.swift */,
+				16DBAA09230BCE140086FAE1 /* Info.plist */,
+			);
+			path = JobTokApp1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16DBA9E3230BCE110086FAE1 /* JobTokApp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DBAA0C230BCE140086FAE1 /* Build configuration list for PBXNativeTarget "JobTokApp1" */;
+			buildPhases = (
+				16DBA9E0230BCE110086FAE1 /* Sources */,
+				16DBA9E1230BCE110086FAE1 /* Frameworks */,
+				16DBA9E2230BCE110086FAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobTokApp1;
+			productName = JobTokApp1;
+			productReference = 16DBA9E4230BCE110086FAE1 /* JobTokApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16DBA9F7230BCE140086FAE1 /* JobTokApp1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DBAA0F230BCE140086FAE1 /* Build configuration list for PBXNativeTarget "JobTokApp1Tests" */;
+			buildPhases = (
+				16DBA9F4230BCE140086FAE1 /* Sources */,
+				16DBA9F5230BCE140086FAE1 /* Frameworks */,
+				16DBA9F6230BCE140086FAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16DBA9FA230BCE140086FAE1 /* PBXTargetDependency */,
+			);
+			name = JobTokApp1Tests;
+			productName = JobTokApp1Tests;
+			productReference = 16DBA9F8230BCE140086FAE1 /* JobTokApp1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16DBAA02230BCE140086FAE1 /* JobTokApp1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DBAA12230BCE140086FAE1 /* Build configuration list for PBXNativeTarget "JobTokApp1UITests" */;
+			buildPhases = (
+				16DBA9FF230BCE140086FAE1 /* Sources */,
+				16DBAA00230BCE140086FAE1 /* Frameworks */,
+				16DBAA01230BCE140086FAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16DBAA05230BCE140086FAE1 /* PBXTargetDependency */,
+			);
+			name = JobTokApp1UITests;
+			productName = JobTokApp1UITests;
+			productReference = 16DBAA03230BCE140086FAE1 /* JobTokApp1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16DBA9DC230BCE110086FAE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Azuma Yudai";
+				TargetAttributes = {
+					16DBA9E3230BCE110086FAE1 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					16DBA9F7230BCE140086FAE1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 16DBA9E3230BCE110086FAE1;
+					};
+					16DBAA02230BCE140086FAE1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 16DBA9E3230BCE110086FAE1;
+					};
+				};
+			};
+			buildConfigurationList = 16DBA9DF230BCE110086FAE1 /* Build configuration list for PBXProject "JobTokApp1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16DBA9DB230BCE110086FAE1;
+			productRefGroup = 16DBA9E5230BCE110086FAE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16DBA9E3230BCE110086FAE1 /* JobTokApp1 */,
+				16DBA9F7230BCE140086FAE1 /* JobTokApp1Tests */,
+				16DBAA02230BCE140086FAE1 /* JobTokApp1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16DBA9E2230BCE110086FAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DBA9F2230BCE130086FAE1 /* LaunchScreen.storyboard in Resources */,
+				16DBA9EF230BCE130086FAE1 /* Assets.xcassets in Resources */,
+				16DBA9ED230BCE110086FAE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DBA9F6230BCE140086FAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DBAA01230BCE140086FAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16DBA9E0230BCE110086FAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DBA9EA230BCE110086FAE1 /* ViewController.swift in Sources */,
+				16DBA9E8230BCE110086FAE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DBA9F4230BCE140086FAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DBA9FD230BCE140086FAE1 /* JobTokApp1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DBA9FF230BCE140086FAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DBAA08230BCE140086FAE1 /* JobTokApp1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16DBA9FA230BCE140086FAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16DBA9E3230BCE110086FAE1 /* JobTokApp1 */;
+			targetProxy = 16DBA9F9230BCE140086FAE1 /* PBXContainerItemProxy */;
+		};
+		16DBAA05230BCE140086FAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16DBA9E3230BCE110086FAE1 /* JobTokApp1 */;
+			targetProxy = 16DBAA04230BCE140086FAE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16DBA9EB230BCE110086FAE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16DBA9EC230BCE110086FAE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16DBA9F0230BCE130086FAE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16DBA9F1230BCE130086FAE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16DBAA0A230BCE140086FAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16DBAA0B230BCE140086FAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16DBAA0D230BCE140086FAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76KX9A8PKB;
+				INFOPLIST_FILE = JobTokApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yazuma.JobTokApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16DBAA0E230BCE140086FAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76KX9A8PKB;
+				INFOPLIST_FILE = JobTokApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yazuma.JobTokApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16DBAA10230BCE140086FAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76KX9A8PKB;
+				INFOPLIST_FILE = JobTokApp1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yazuma.JobTokApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobTokApp1.app/JobTokApp1";
+			};
+			name = Debug;
+		};
+		16DBAA11230BCE140086FAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76KX9A8PKB;
+				INFOPLIST_FILE = JobTokApp1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yazuma.JobTokApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobTokApp1.app/JobTokApp1";
+			};
+			name = Release;
+		};
+		16DBAA13230BCE140086FAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76KX9A8PKB;
+				INFOPLIST_FILE = JobTokApp1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yazuma.JobTokApp1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JobTokApp1;
+			};
+			name = Debug;
+		};
+		16DBAA14230BCE140086FAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76KX9A8PKB;
+				INFOPLIST_FILE = JobTokApp1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yazuma.JobTokApp1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JobTokApp1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16DBA9DF230BCE110086FAE1 /* Build configuration list for PBXProject "JobTokApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DBAA0A230BCE140086FAE1 /* Debug */,
+				16DBAA0B230BCE140086FAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16DBAA0C230BCE140086FAE1 /* Build configuration list for PBXNativeTarget "JobTokApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DBAA0D230BCE140086FAE1 /* Debug */,
+				16DBAA0E230BCE140086FAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16DBAA0F230BCE140086FAE1 /* Build configuration list for PBXNativeTarget "JobTokApp1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DBAA10230BCE140086FAE1 /* Debug */,
+				16DBAA11230BCE140086FAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16DBAA12230BCE140086FAE1 /* Build configuration list for PBXNativeTarget "JobTokApp1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DBAA13230BCE140086FAE1 /* Debug */,
+				16DBAA14230BCE140086FAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16DBA9DC230BCE110086FAE1 /* Project object */;
+}
