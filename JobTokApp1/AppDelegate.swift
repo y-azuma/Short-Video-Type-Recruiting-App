@@ -12,12 +12,29 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+           // Override point for customization after application launch.
+           let pageController:UIPageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+           let navigationController:SwipeNavigationViewController = SwipeNavigationViewController(rootViewController: pageController)
+           pageController.automaticallyAdjustsScrollViewInsets = false
+
+           let demo:UIViewController = FirstViewController()
+           let demo2:UIViewController = SecondViewController()
+           let demo3:UIViewController = ThirdViewController()
+           //demo.view.backgroundColor = UIColor.red
+           //demo2.view.backgroundColor = UIColor.white
+           navigationController.viewControllerArray = [demo,demo2,demo3]
+           self.window?.rootViewController = navigationController
+           self.window?.makeKeyAndVisible()
+           return true
+       }
+
+
+    /*func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
-    }
+    }*/
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
