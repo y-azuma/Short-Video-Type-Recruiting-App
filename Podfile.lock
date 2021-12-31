@@ -1,0 +1,57 @@
+PODS:
+  - AMChart (2.3.3)
+  - CalculateCalendarLogic (0.5.0)
+  - collection-view-layouts/Core (0.2.2)
+  - collection-view-layouts/FacebookLayout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/FlickrLayout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/FlipboardLayout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/InstagramLayout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/PinterestLayout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/Px500Layout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/TagsLayout (0.2.2):
+    - collection-view-layouts/Core
+  - FSCalendar (2.8.2)
+  - GrowingTextView (0.7.1)
+  - TRMosaicLayout (1.0.0)
+
+DEPENDENCIES:
+  - AMChart
+  - CalculateCalendarLogic
+  - collection-view-layouts/Core
+  - collection-view-layouts/FacebookLayout
+  - collection-view-layouts/FlickrLayout
+  - collection-view-layouts/FlipboardLayout
+  - collection-view-layouts/InstagramLayout
+  - collection-view-layouts/PinterestLayout
+  - collection-view-layouts/Px500Layout
+  - collection-view-layouts/TagsLayout
+  - FSCalendar
+  - GrowingTextView (= 0.7.1)
+  - TRMosaicLayout
+
+SPEC REPOS:
+  trunk:
+    - AMChart
+    - CalculateCalendarLogic
+    - collection-view-layouts
+    - FSCalendar
+    - GrowingTextView
+    - TRMosaicLayout
+
+SPEC CHECKSUMS:
+  AMChart: 38336761edcd7cc9729f237551fd7d90b2959bbd
+  CalculateCalendarLogic: d14189787cd47766e64281b2686608afea07ae4d
+  collection-view-layouts: 474ec4cce601a26247737227a97fa6a4eb30213f
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  GrowingTextView: 6dff7eedf2fc93f8378d20d456782afd0267b0cc
+  TRMosaicLayout: 1875505c48dd2877afd69a8bea7b4c1c63afa5b5
+
+PODFILE CHECKSUM: 2d8bb8171ed95cf2a227ad3f72b2b3da2b3626cd
+
+COCOAPODS: 1.11.2
