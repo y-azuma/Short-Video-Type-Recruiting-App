@@ -1,0 +1,6 @@
+framework module Pods_JobTokApp1_JobTokApp1UITests {
+  umbrella header "Pods-JobTokApp1-JobTokApp1UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

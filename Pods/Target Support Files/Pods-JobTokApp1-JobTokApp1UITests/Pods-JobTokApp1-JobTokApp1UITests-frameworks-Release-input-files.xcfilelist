@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-JobTokApp1-JobTokApp1UITests/Pods-JobTokApp1-JobTokApp1UITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AMChart/AMChart.framework
+${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework
+${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework
+${BUILT_PRODUCTS_DIR}/GrowingTextView/GrowingTextView.framework
+${BUILT_PRODUCTS_DIR}/TRMosaicLayout/TRMosaicLayout.framework
+${BUILT_PRODUCTS_DIR}/collection-view-layouts/collection_view_layouts.framework
