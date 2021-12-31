@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.7.1",
+  "iOS" : [
+    {
+      "name" : "GrowingTextView",
+      "hash" : "e4e54af8170d568fa536f482d7a4899574653de6228f6c2abb3f46256a48afde",
+      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+    }
+  ]
+}
